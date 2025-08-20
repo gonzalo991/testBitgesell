@@ -1,98 +1,902 @@
 [
   {
     "id": 1,
-    "name": "Laptop Pro",
+    "name": "Laptop Pro 1",
     "category": "Electronics",
     "price": 2499
   },
   {
     "id": 2,
-    "name": "Noise Cancelling Headphones",
+    "name": "Noise Cancelling Headphones 2",
     "category": "Electronics",
     "price": 399
   },
   {
     "id": 3,
-    "name": "Ultra‑Wide Monitor",
+    "name": "Ultra‑Wide Monitor 3",
     "category": "Electronics",
     "price": 999
   },
   {
     "id": 4,
-    "name": "Ergonomic Chair",
+    "name": "Ergonomic Chair 4",
     "category": "Furniture",
     "price": 799
   },
   {
     "id": 5,
-    "name": "Standing Desk",
+    "name": "Standing Desk 5",
     "category": "Furniture",
     "price": 1199
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 6,
+    "name": "Mechanical Keyboard 6",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755564295743
+    "price": 199
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 7,
+    "name": "Gaming Mouse 7",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755564367903
+    "price": 79
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 8,
+    "name": "Webcam HD 8",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755564402198
+    "price": 129
   },
   {
-    "name": "Mechanical Keyboard",
-    "category": "Electronics",
-    "price": 199,
-    "id": 1755564459574
+    "id": 9,
+    "name": "Desk Lamp 9",
+    "category": "Furniture",
+    "price": 49
   },
   {
-    "name": "Mechanical Keyboard",
-    "category": "Electronics",
-    "price": 199,
-    "id": 1755564820402
+    "id": 10,
+    "name": "Office Chair 10",
+    "category": "Furniture",
+    "price": 699
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 11,
+    "name": "Laptop Pro 11",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755564896200
+    "price": 2509
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 12,
+    "name": "Noise Cancelling Headphones 12",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755565081084
+    "price": 409
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 13,
+    "name": "Ultra‑Wide Monitor 13",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755565130054
+    "price": 1009
   },
   {
-    "name": "Mechanical Keyboard",
-    "category": "Electronics",
-    "price": 199,
-    "id": 1755565168018
+    "id": 14,
+    "name": "Ergonomic Chair 14",
+    "category": "Furniture",
+    "price": 809
   },
   {
-    "name": "Mechanical Keyboard",
-    "category": "Electronics",
-    "price": 199,
-    "id": 1755565493321
+    "id": 15,
+    "name": "Standing Desk 15",
+    "category": "Furniture",
+    "price": 1209
   },
   {
-    "name": "Mechanical Keyboard",
+    "id": 16,
+    "name": "Mechanical Keyboard 16",
     "category": "Electronics",
-    "price": 199,
-    "id": 1755566162922
+    "price": 209
+  },
+  {
+    "id": 17,
+    "name": "Gaming Mouse 17",
+    "category": "Electronics",
+    "price": 89
+  },
+  {
+    "id": 18,
+    "name": "Webcam HD 18",
+    "category": "Electronics",
+    "price": 139
+  },
+  {
+    "id": 19,
+    "name": "Desk Lamp 19",
+    "category": "Furniture",
+    "price": 59
+  },
+  {
+    "id": 20,
+    "name": "Office Chair 20",
+    "category": "Furniture",
+    "price": 709
+  },
+  {
+    "id": 21,
+    "name": "Laptop Pro 21",
+    "category": "Electronics",
+    "price": 2519
+  },
+  {
+    "id": 22,
+    "name": "Noise Cancelling Headphones 22",
+    "category": "Electronics",
+    "price": 419
+  },
+  {
+    "id": 23,
+    "name": "Ultra‑Wide Monitor 23",
+    "category": "Electronics",
+    "price": 1019
+  },
+  {
+    "id": 24,
+    "name": "Ergonomic Chair 24",
+    "category": "Furniture",
+    "price": 819
+  },
+  {
+    "id": 25,
+    "name": "Standing Desk 25",
+    "category": "Furniture",
+    "price": 1219
+  },
+  {
+    "id": 26,
+    "name": "Mechanical Keyboard 26",
+    "category": "Electronics",
+    "price": 219
+  },
+  {
+    "id": 27,
+    "name": "Gaming Mouse 27",
+    "category": "Electronics",
+    "price": 99
+  },
+  {
+    "id": 28,
+    "name": "Webcam HD 28",
+    "category": "Electronics",
+    "price": 149
+  },
+  {
+    "id": 29,
+    "name": "Desk Lamp 29",
+    "category": "Furniture",
+    "price": 69
+  },
+  {
+    "id": 30,
+    "name": "Office Chair 30",
+    "category": "Furniture",
+    "price": 719
+  },
+  {
+    "id": 31,
+    "name": "Laptop Pro 31",
+    "category": "Electronics",
+    "price": 2529
+  },
+  {
+    "id": 32,
+    "name": "Noise Cancelling Headphones 32",
+    "category": "Electronics",
+    "price": 429
+  },
+  {
+    "id": 33,
+    "name": "Ultra‑Wide Monitor 33",
+    "category": "Electronics",
+    "price": 1029
+  },
+  {
+    "id": 34,
+    "name": "Ergonomic Chair 34",
+    "category": "Furniture",
+    "price": 829
+  },
+  {
+    "id": 35,
+    "name": "Standing Desk 35",
+    "category": "Furniture",
+    "price": 1229
+  },
+  {
+    "id": 36,
+    "name": "Mechanical Keyboard 36",
+    "category": "Electronics",
+    "price": 229
+  },
+  {
+    "id": 37,
+    "name": "Gaming Mouse 37",
+    "category": "Electronics",
+    "price": 109
+  },
+  {
+    "id": 38,
+    "name": "Webcam HD 38",
+    "category": "Electronics",
+    "price": 159
+  },
+  {
+    "id": 39,
+    "name": "Desk Lamp 39",
+    "category": "Furniture",
+    "price": 79
+  },
+  {
+    "id": 40,
+    "name": "Office Chair 40",
+    "category": "Furniture",
+    "price": 729
+  },
+  {
+    "id": 41,
+    "name": "Laptop Pro 41",
+    "category": "Electronics",
+    "price": 2539
+  },
+  {
+    "id": 42,
+    "name": "Noise Cancelling Headphones 42",
+    "category": "Electronics",
+    "price": 439
+  },
+  {
+    "id": 43,
+    "name": "Ultra‑Wide Monitor 43",
+    "category": "Electronics",
+    "price": 1039
+  },
+  {
+    "id": 44,
+    "name": "Ergonomic Chair 44",
+    "category": "Furniture",
+    "price": 839
+  },
+  {
+    "id": 45,
+    "name": "Standing Desk 45",
+    "category": "Furniture",
+    "price": 1239
+  },
+  {
+    "id": 46,
+    "name": "Mechanical Keyboard 46",
+    "category": "Electronics",
+    "price": 239
+  },
+  {
+    "id": 47,
+    "name": "Gaming Mouse 47",
+    "category": "Electronics",
+    "price": 119
+  },
+  {
+    "id": 48,
+    "name": "Webcam HD 48",
+    "category": "Electronics",
+    "price": 169
+  },
+  {
+    "id": 49,
+    "name": "Desk Lamp 49",
+    "category": "Furniture",
+    "price": 89
+  },
+  {
+    "id": 50,
+    "name": "Office Chair 50",
+    "category": "Furniture",
+    "price": 739
+  },
+  {
+    "id": 51,
+    "name": "Laptop Pro 51",
+    "category": "Electronics",
+    "price": 2549
+  },
+  {
+    "id": 52,
+    "name": "Noise Cancelling Headphones 52",
+    "category": "Electronics",
+    "price": 449
+  },
+  {
+    "id": 53,
+    "name": "Ultra‑Wide Monitor 53",
+    "category": "Electronics",
+    "price": 1049
+  },
+  {
+    "id": 54,
+    "name": "Ergonomic Chair 54",
+    "category": "Furniture",
+    "price": 849
+  },
+  {
+    "id": 55,
+    "name": "Standing Desk 55",
+    "category": "Furniture",
+    "price": 1249
+  },
+  {
+    "id": 56,
+    "name": "Mechanical Keyboard 56",
+    "category": "Electronics",
+    "price": 249
+  },
+  {
+    "id": 57,
+    "name": "Gaming Mouse 57",
+    "category": "Electronics",
+    "price": 129
+  },
+  {
+    "id": 58,
+    "name": "Webcam HD 58",
+    "category": "Electronics",
+    "price": 179
+  },
+  {
+    "id": 59,
+    "name": "Desk Lamp 59",
+    "category": "Furniture",
+    "price": 99
+  },
+  {
+    "id": 60,
+    "name": "Office Chair 60",
+    "category": "Furniture",
+    "price": 749
+  },
+  {
+    "id": 61,
+    "name": "Laptop Pro 61",
+    "category": "Electronics",
+    "price": 2559
+  },
+  {
+    "id": 62,
+    "name": "Noise Cancelling Headphones 62",
+    "category": "Electronics",
+    "price": 459
+  },
+  {
+    "id": 63,
+    "name": "Ultra‑Wide Monitor 63",
+    "category": "Electronics",
+    "price": 1059
+  },
+  {
+    "id": 64,
+    "name": "Ergonomic Chair 64",
+    "category": "Furniture",
+    "price": 859
+  },
+  {
+    "id": 65,
+    "name": "Standing Desk 65",
+    "category": "Furniture",
+    "price": 1259
+  },
+  {
+    "id": 66,
+    "name": "Mechanical Keyboard 66",
+    "category": "Electronics",
+    "price": 259
+  },
+  {
+    "id": 67,
+    "name": "Gaming Mouse 67",
+    "category": "Electronics",
+    "price": 139
+  },
+  {
+    "id": 68,
+    "name": "Webcam HD 68",
+    "category": "Electronics",
+    "price": 189
+  },
+  {
+    "id": 69,
+    "name": "Desk Lamp 69",
+    "category": "Furniture",
+    "price": 109
+  },
+  {
+    "id": 70,
+    "name": "Office Chair 70",
+    "category": "Furniture",
+    "price": 759
+  },
+  {
+    "id": 71,
+    "name": "Laptop Pro 71",
+    "category": "Electronics",
+    "price": 2569
+  },
+  {
+    "id": 72,
+    "name": "Noise Cancelling Headphones 72",
+    "category": "Electronics",
+    "price": 469
+  },
+  {
+    "id": 73,
+    "name": "Ultra‑Wide Monitor 73",
+    "category": "Electronics",
+    "price": 1069
+  },
+  {
+    "id": 74,
+    "name": "Ergonomic Chair 74",
+    "category": "Furniture",
+    "price": 869
+  },
+  {
+    "id": 75,
+    "name": "Standing Desk 75",
+    "category": "Furniture",
+    "price": 1269
+  },
+  {
+    "id": 76,
+    "name": "Mechanical Keyboard 76",
+    "category": "Electronics",
+    "price": 269
+  },
+  {
+    "id": 77,
+    "name": "Gaming Mouse 77",
+    "category": "Electronics",
+    "price": 149
+  },
+  {
+    "id": 78,
+    "name": "Webcam HD 78",
+    "category": "Electronics",
+    "price": 199
+  },
+  {
+    "id": 79,
+    "name": "Desk Lamp 79",
+    "category": "Furniture",
+    "price": 119
+  },
+  {
+    "id": 80,
+    "name": "Office Chair 80",
+    "category": "Furniture",
+    "price": 769
+  },
+  {
+    "id": 81,
+    "name": "Laptop Pro 81",
+    "category": "Electronics",
+    "price": 2579
+  },
+  {
+    "id": 82,
+    "name": "Noise Cancelling Headphones 82",
+    "category": "Electronics",
+    "price": 479
+  },
+  {
+    "id": 83,
+    "name": "Ultra‑Wide Monitor 83",
+    "category": "Electronics",
+    "price": 1079
+  },
+  {
+    "id": 84,
+    "name": "Ergonomic Chair 84",
+    "category": "Furniture",
+    "price": 879
+  },
+  {
+    "id": 85,
+    "name": "Standing Desk 85",
+    "category": "Furniture",
+    "price": 1279
+  },
+  {
+    "id": 86,
+    "name": "Mechanical Keyboard 86",
+    "category": "Electronics",
+    "price": 279
+  },
+  {
+    "id": 87,
+    "name": "Gaming Mouse 87",
+    "category": "Electronics",
+    "price": 159
+  },
+  {
+    "id": 88,
+    "name": "Webcam HD 88",
+    "category": "Electronics",
+    "price": 209
+  },
+  {
+    "id": 89,
+    "name": "Desk Lamp 89",
+    "category": "Furniture",
+    "price": 129
+  },
+  {
+    "id": 90,
+    "name": "Office Chair 90",
+    "category": "Furniture",
+    "price": 779
+  },
+  {
+    "id": 91,
+    "name": "Laptop Pro 91",
+    "category": "Electronics",
+    "price": 2589
+  },
+  {
+    "id": 92,
+    "name": "Noise Cancelling Headphones 92",
+    "category": "Electronics",
+    "price": 489
+  },
+  {
+    "id": 93,
+    "name": "Ultra‑Wide Monitor 93",
+    "category": "Electronics",
+    "price": 1089
+  },
+  {
+    "id": 94,
+    "name": "Ergonomic Chair 94",
+    "category": "Furniture",
+    "price": 889
+  },
+  {
+    "id": 95,
+    "name": "Standing Desk 95",
+    "category": "Furniture",
+    "price": 1289
+  },
+  {
+    "id": 96,
+    "name": "Mechanical Keyboard 96",
+    "category": "Electronics",
+    "price": 289
+  },
+  {
+    "id": 97,
+    "name": "Gaming Mouse 97",
+    "category": "Electronics",
+    "price": 169
+  },
+  {
+    "id": 98,
+    "name": "Webcam HD 98",
+    "category": "Electronics",
+    "price": 219
+  },
+  {
+    "id": 99,
+    "name": "Desk Lamp 99",
+    "category": "Furniture",
+    "price": 139
+  },
+  {
+    "id": 100,
+    "name": "Office Chair 100",
+    "category": "Furniture",
+    "price": 789
+  },
+  {
+    "id": 101,
+    "name": "Laptop Pro 101",
+    "category": "Electronics",
+    "price": 2599
+  },
+  {
+    "id": 102,
+    "name": "Noise Cancelling Headphones 102",
+    "category": "Electronics",
+    "price": 499
+  },
+  {
+    "id": 103,
+    "name": "Ultra‑Wide Monitor 103",
+    "category": "Electronics",
+    "price": 1099
+  },
+  {
+    "id": 104,
+    "name": "Ergonomic Chair 104",
+    "category": "Furniture",
+    "price": 899
+  },
+  {
+    "id": 105,
+    "name": "Standing Desk 105",
+    "category": "Furniture",
+    "price": 1299
+  },
+  {
+    "id": 106,
+    "name": "Mechanical Keyboard 106",
+    "category": "Electronics",
+    "price": 299
+  },
+  {
+    "id": 107,
+    "name": "Gaming Mouse 107",
+    "category": "Electronics",
+    "price": 179
+  },
+  {
+    "id": 108,
+    "name": "Webcam HD 108",
+    "category": "Electronics",
+    "price": 229
+  },
+  {
+    "id": 109,
+    "name": "Desk Lamp 109",
+    "category": "Furniture",
+    "price": 149
+  },
+  {
+    "id": 110,
+    "name": "Office Chair 110",
+    "category": "Furniture",
+    "price": 799
+  },
+  {
+    "id": 111,
+    "name": "Laptop Pro 111",
+    "category": "Electronics",
+    "price": 2609
+  },
+  {
+    "id": 112,
+    "name": "Noise Cancelling Headphones 112",
+    "category": "Electronics",
+    "price": 509
+  },
+  {
+    "id": 113,
+    "name": "Ultra‑Wide Monitor 113",
+    "category": "Electronics",
+    "price": 1109
+  },
+  {
+    "id": 114,
+    "name": "Ergonomic Chair 114",
+    "category": "Furniture",
+    "price": 909
+  },
+  {
+    "id": 115,
+    "name": "Standing Desk 115",
+    "category": "Furniture",
+    "price": 1309
+  },
+  {
+    "id": 116,
+    "name": "Mechanical Keyboard 116",
+    "category": "Electronics",
+    "price": 309
+  },
+  {
+    "id": 117,
+    "name": "Gaming Mouse 117",
+    "category": "Electronics",
+    "price": 189
+  },
+  {
+    "id": 118,
+    "name": "Webcam HD 118",
+    "category": "Electronics",
+    "price": 239
+  },
+  {
+    "id": 119,
+    "name": "Desk Lamp 119",
+    "category": "Furniture",
+    "price": 159
+  },
+  {
+    "id": 120,
+    "name": "Office Chair 120",
+    "category": "Furniture",
+    "price": 809
+  },
+  {
+    "id": 121,
+    "name": "Laptop Pro 121",
+    "category": "Electronics",
+    "price": 2619
+  },
+  {
+    "id": 122,
+    "name": "Noise Cancelling Headphones 122",
+    "category": "Electronics",
+    "price": 519
+  },
+  {
+    "id": 123,
+    "name": "Ultra‑Wide Monitor 123",
+    "category": "Electronics",
+    "price": 1119
+  },
+  {
+    "id": 124,
+    "name": "Ergonomic Chair 124",
+    "category": "Furniture",
+    "price": 919
+  },
+  {
+    "id": 125,
+    "name": "Standing Desk 125",
+    "category": "Furniture",
+    "price": 1319
+  },
+  {
+    "id": 126,
+    "name": "Mechanical Keyboard 126",
+    "category": "Electronics",
+    "price": 319
+  },
+  {
+    "id": 127,
+    "name": "Gaming Mouse 127",
+    "category": "Electronics",
+    "price": 199
+  },
+  {
+    "id": 128,
+    "name": "Webcam HD 128",
+    "category": "Electronics",
+    "price": 249
+  },
+  {
+    "id": 129,
+    "name": "Desk Lamp 129",
+    "category": "Furniture",
+    "price": 169
+  },
+  {
+    "id": 130,
+    "name": "Office Chair 130",
+    "category": "Furniture",
+    "price": 819
+  },
+  {
+    "id": 131,
+    "name": "Laptop Pro 131",
+    "category": "Electronics",
+    "price": 2629
+  },
+  {
+    "id": 132,
+    "name": "Noise Cancelling Headphones 132",
+    "category": "Electronics",
+    "price": 529
+  },
+  {
+    "id": 133,
+    "name": "Ultra‑Wide Monitor 133",
+    "category": "Electronics",
+    "price": 1129
+  },
+  {
+    "id": 134,
+    "name": "Ergonomic Chair 134",
+    "category": "Furniture",
+    "price": 929
+  },
+  {
+    "id": 135,
+    "name": "Standing Desk 135",
+    "category": "Furniture",
+    "price": 1329
+  },
+  {
+    "id": 136,
+    "name": "Mechanical Keyboard 136",
+    "category": "Electronics",
+    "price": 329
+  },
+  {
+    "id": 137,
+    "name": "Gaming Mouse 137",
+    "category": "Electronics",
+    "price": 209
+  },
+  {
+    "id": 138,
+    "name": "Webcam HD 138",
+    "category": "Electronics",
+    "price": 259
+  },
+  {
+    "id": 139,
+    "name": "Desk Lamp 139",
+    "category": "Furniture",
+    "price": 179
+  },
+  {
+    "id": 140,
+    "name": "Office Chair 140",
+    "category": "Furniture",
+    "price": 829
+  },
+  {
+    "id": 141,
+    "name": "Laptop Pro 141",
+    "category": "Electronics",
+    "price": 2639
+  },
+  {
+    "id": 142,
+    "name": "Noise Cancelling Headphones 142",
+    "category": "Electronics",
+    "price": 539
+  },
+  {
+    "id": 143,
+    "name": "Ultra‑Wide Monitor 143",
+    "category": "Electronics",
+    "price": 1139
+  },
+  {
+    "id": 144,
+    "name": "Ergonomic Chair 144",
+    "category": "Furniture",
+    "price": 939
+  },
+  {
+    "id": 145,
+    "name": "Standing Desk 145",
+    "category": "Furniture",
+    "price": 1339
+  },
+  {
+    "id": 146,
+    "name": "Mechanical Keyboard 146",
+    "category": "Electronics",
+    "price": 339
+  },
+  {
+    "id": 147,
+    "name": "Gaming Mouse 147",
+    "category": "Electronics",
+    "price": 219
+  },
+  {
+    "id": 148,
+    "name": "Webcam HD 148",
+    "category": "Electronics",
+    "price": 269
+  },
+  {
+    "id": 149,
+    "name": "Desk Lamp 149",
+    "category": "Furniture",
+    "price": 189
+  },
+  {
+    "id": 150,
+    "name": "Office Chair 150",
+    "category": "Furniture",
+    "price": 839
   }
 ]
