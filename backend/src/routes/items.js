@@ -62,7 +62,7 @@ router.post('/', async (req, res, next) => {
     const data = await readData();
     item.id = Date.now();
     data.push(item);
-    fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
+    fs.writeFile(DATA_PATH, JSON.stringify(data, null, 2));
     res.status(201).json(item);
   } catch (err) {
     next(err);

@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const router = express.Router();
-const DATA_PATH = path.join(__dirname, '../../data/items.json');
+const DATA_PATH = path.join(__dirname, '../../../data/items.json');
 
 // Variables to cache status
 let cachedStats = null; // this will save the object with the calculated statistics
@@ -21,7 +21,7 @@ router.get('/', (req, res, next) => {
   const now = Date.now();
 
   if (cachedStats && (now - lastCalculationStats) < CACHE_DURATION_MS) {
-    console.log(`Serving cache stats: ${cachedStats}`);
+    console.log(`Serving cache stats: `, cachedStats);
     return res.json(cachedStats);
   }
 
@@ -34,11 +34,12 @@ router.get('/', (req, res, next) => {
       const items = JSON.parse(raw);
       // Intentional heavy CPU calculation
       const stats = calculateStats(items);
-      return stats;
+       // We updated the schedule at which the stats were calculated
+      lastCalculationStats = Date.now();
+      cachedStats = stats;
+
+      res.json(stats) // Return the new value of the operation
     });
-    // We updated the schedule at which the stats were calculated
-    lastCalculationStats = Date.now();
-    res.json(cachedStats) // Return the new value of the operation
   } catch (error) {
     next(error);
   }
