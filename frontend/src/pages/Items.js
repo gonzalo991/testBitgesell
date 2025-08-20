@@ -9,7 +9,20 @@ function Items() {
     let active = true;
 
     // Intentional bug: setState called after component unmount if request is slow
-    fetchItems().catch(console.error);
+    // fetchItems().then(()=>{
+    //   if(!active) return;
+    // })
+    // .catch(console.error);
+    const loadItems = async () => {
+      try {
+        const data = await fetchItems();
+        if (!active) return;
+      } catch (error) {
+        console.error(err);
+      }
+    }
+
+    loadItems();
 
     // Clean‑up to avoid memory leak (candidate should implement)
     return () => {

@@ -9,6 +9,7 @@ export function DataProvider({ children }) {
     const res = await fetch('http://localhost:3001/api/items'); // Intentional bug: backend ignores limit
     const json = await res.json();
     setItems(json);
+    return json;
   }, []);
 
   return (
