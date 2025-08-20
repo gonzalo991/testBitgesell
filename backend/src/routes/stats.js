@@ -9,6 +9,7 @@ let cachedStats = null; // this will save the object with the calculated statist
 let lastCalculationStats = 0; // This will save the last time the data has been calculated
 const CACHE_DURATION_MS = 10 * 60 * 1000; // Time interval for calculation
 
+// function to calculate stats and make it reusable
 const calculateStats = (items) => {
   const total = items.length;
   const averagePrice = items.reduce((acc, cur) => acc + cur.price, 0) / items.length;
@@ -27,8 +28,7 @@ router.get('/', (req, res, next) => {
   console.log(`Expired Cache or it does not exists. Recalculating...`);
 
   try {
-    // If we recalculate the stats we save the result of the operation at cachedStats
-    cachedStats = fs.readFile(DATA_PATH, (err, raw) => {
+    fs.readFile(DATA_PATH, (err, raw) => {
       if (err) return next(err);
 
       const items = JSON.parse(raw);
